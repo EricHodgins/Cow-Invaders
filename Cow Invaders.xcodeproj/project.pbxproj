@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A95A4561B11116300A65728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A4551B11116300A65728 /* main.m */; };
+		7A95A4591B11116300A65728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A4581B11116300A65728 /* AppDelegate.m */; };
+		7A95A45C1B11116300A65728 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A45B1B11116300A65728 /* GameScene.m */; };
+		7A95A45E1B11116300A65728 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A95A45D1B11116300A65728 /* GameScene.sks */; };
+		7A95A4611B11116300A65728 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A4601B11116300A65728 /* GameViewController.m */; };
+		7A95A4641B11116300A65728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A95A4621B11116300A65728 /* Main.storyboard */; };
+		7A95A4661B11116300A65728 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A95A4651B11116300A65728 /* Images.xcassets */; };
+		7A95A4691B11116300A65728 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A95A4671B11116300A65728 /* LaunchScreen.xib */; };
+		7A95A4751B11116300A65728 /* Cow_InvadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A4741B11116300A65728 /* Cow_InvadersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A95A46F1B11116300A65728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A95A4481B11116300A65728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A95A44F1B11116300A65728;
+			remoteInfo = "Cow Invaders";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A95A4501B11116300A65728 /* Cow Invaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cow Invaders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A95A4541B11116300A65728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A95A4551B11116300A65728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A95A4571B11116300A65728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A95A4581B11116300A65728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A95A45A1B11116300A65728 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		7A95A45B1B11116300A65728 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		7A95A45D1B11116300A65728 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7A95A45F1B11116300A65728 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		7A95A4601B11116300A65728 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		7A95A4631B11116300A65728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A95A4651B11116300A65728 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A95A4681B11116300A65728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7A95A46E1B11116300A65728 /* Cow InvadersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cow InvadersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A95A4731B11116300A65728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A95A4741B11116300A65728 /* Cow_InvadersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cow_InvadersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A95A44D1B11116300A65728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A95A46B1B11116300A65728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A95A4471B11116300A65728 = {
+			isa = PBXGroup;
+			children = (
+				7A95A4521B11116300A65728 /* Cow Invaders */,
+				7A95A4711B11116300A65728 /* Cow InvadersTests */,
+				7A95A4511B11116300A65728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A95A4511B11116300A65728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A95A4501B11116300A65728 /* Cow Invaders.app */,
+				7A95A46E1B11116300A65728 /* Cow InvadersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A95A4521B11116300A65728 /* Cow Invaders */ = {
+			isa = PBXGroup;
+			children = (
+				7A95A4571B11116300A65728 /* AppDelegate.h */,
+				7A95A4581B11116300A65728 /* AppDelegate.m */,
+				7A95A45A1B11116300A65728 /* GameScene.h */,
+				7A95A45B1B11116300A65728 /* GameScene.m */,
+				7A95A45D1B11116300A65728 /* GameScene.sks */,
+				7A95A45F1B11116300A65728 /* GameViewController.h */,
+				7A95A4601B11116300A65728 /* GameViewController.m */,
+				7A95A4621B11116300A65728 /* Main.storyboard */,
+				7A95A4651B11116300A65728 /* Images.xcassets */,
+				7A95A4671B11116300A65728 /* LaunchScreen.xib */,
+				7A95A4531B11116300A65728 /* Supporting Files */,
+			);
+			path = "Cow Invaders";
+			sourceTree = "<group>";
+		};
+		7A95A4531B11116300A65728 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A95A4541B11116300A65728 /* Info.plist */,
+				7A95A4551B11116300A65728 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A95A4711B11116300A65728 /* Cow InvadersTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A95A4741B11116300A65728 /* Cow_InvadersTests.m */,
+				7A95A4721B11116300A65728 /* Supporting Files */,
+			);
+			path = "Cow InvadersTests";
+			sourceTree = "<group>";
+		};
+		7A95A4721B11116300A65728 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A95A4731B11116300A65728 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A95A44F1B11116300A65728 /* Cow Invaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A95A4781B11116300A65728 /* Build configuration list for PBXNativeTarget "Cow Invaders" */;
+			buildPhases = (
+				7A95A44C1B11116300A65728 /* Sources */,
+				7A95A44D1B11116300A65728 /* Frameworks */,
+				7A95A44E1B11116300A65728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cow Invaders";
+			productName = "Cow Invaders";
+			productReference = 7A95A4501B11116300A65728 /* Cow Invaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A95A46D1B11116300A65728 /* Cow InvadersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A95A47B1B11116300A65728 /* Build configuration list for PBXNativeTarget "Cow InvadersTests" */;
+			buildPhases = (
+				7A95A46A1B11116300A65728 /* Sources */,
+				7A95A46B1B11116300A65728 /* Frameworks */,
+				7A95A46C1B11116300A65728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A95A4701B11116300A65728 /* PBXTargetDependency */,
+			);
+			name = "Cow InvadersTests";
+			productName = "Cow InvadersTests";
+			productReference = 7A95A46E1B11116300A65728 /* Cow InvadersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A95A4481B11116300A65728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Eric Hodgins";
+				TargetAttributes = {
+					7A95A44F1B11116300A65728 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					7A95A46D1B11116300A65728 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 7A95A44F1B11116300A65728;
+					};
+				};
+			};
+			buildConfigurationList = 7A95A44B1B11116300A65728 /* Build configuration list for PBXProject "Cow Invaders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A95A4471B11116300A65728;
+			productRefGroup = 7A95A4511B11116300A65728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A95A44F1B11116300A65728 /* Cow Invaders */,
+				7A95A46D1B11116300A65728 /* Cow InvadersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A95A44E1B11116300A65728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A95A4691B11116300A65728 /* LaunchScreen.xib in Resources */,
+				7A95A4661B11116300A65728 /* Images.xcassets in Resources */,
+				7A95A45E1B11116300A65728 /* GameScene.sks in Resources */,
+				7A95A4641B11116300A65728 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A95A46C1B11116300A65728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A95A44C1B11116300A65728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A95A4611B11116300A65728 /* GameViewController.m in Sources */,
+				7A95A4591B11116300A65728 /* AppDelegate.m in Sources */,
+				7A95A45C1B11116300A65728 /* GameScene.m in Sources */,
+				7A95A4561B11116300A65728 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A95A46A1B11116300A65728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A95A4751B11116300A65728 /* Cow_InvadersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A95A4701B11116300A65728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A95A44F1B11116300A65728 /* Cow Invaders */;
+			targetProxy = 7A95A46F1B11116300A65728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A95A4621B11116300A65728 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A95A4631B11116300A65728 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A95A4671B11116300A65728 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A95A4681B11116300A65728 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A95A4761B11116300A65728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A95A4771B11116300A65728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A95A4791B11116300A65728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cow Invaders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A95A47A1B11116300A65728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cow Invaders/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A95A47C1B11116300A65728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cow InvadersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cow Invaders.app/Cow Invaders";
+			};
+			name = Debug;
+		};
+		7A95A47D1B11116300A65728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cow InvadersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cow Invaders.app/Cow Invaders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A95A44B1B11116300A65728 /* Build configuration list for PBXProject "Cow Invaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A95A4761B11116300A65728 /* Debug */,
+				7A95A4771B11116300A65728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A95A4781B11116300A65728 /* Build configuration list for PBXNativeTarget "Cow Invaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A95A4791B11116300A65728 /* Debug */,
+				7A95A47A1B11116300A65728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A95A47B1B11116300A65728 /* Build configuration list for PBXNativeTarget "Cow InvadersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A95A47C1B11116300A65728 /* Debug */,
+				7A95A47D1B11116300A65728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A95A4481B11116300A65728 /* Project object */;
+}
