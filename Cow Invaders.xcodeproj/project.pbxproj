@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		7A95A4561B11116300A65728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A4551B11116300A65728 /* main.m */; };
 		7A95A4591B11116300A65728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A4581B11116300A65728 /* AppDelegate.m */; };
-		7A95A45C1B11116300A65728 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A45B1B11116300A65728 /* GameScene.m */; };
 		7A95A45E1B11116300A65728 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A95A45D1B11116300A65728 /* GameScene.sks */; };
 		7A95A4611B11116300A65728 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A4601B11116300A65728 /* GameViewController.m */; };
 		7A95A4641B11116300A65728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A95A4621B11116300A65728 /* Main.storyboard */; };
 		7A95A4661B11116300A65728 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A95A4651B11116300A65728 /* Images.xcassets */; };
 		7A95A4691B11116300A65728 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A95A4671B11116300A65728 /* LaunchScreen.xib */; };
 		7A95A4751B11116300A65728 /* Cow_InvadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A4741B11116300A65728 /* Cow_InvadersTests.m */; };
+		7A95A4801B1126EB00A65728 /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A47F1B1126EB00A65728 /* TitleScene.m */; };
+		7A95A4831B11522E00A65728 /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A4821B11522E00A65728 /* GamePlayScene.m */; };
+		7A95A4891B11652100A65728 /* Spritess.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7A95A4881B11652100A65728 /* Spritess.atlas */; };
+		7A95A48C1B116A4600A65728 /* Farmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A48B1B116A4600A65728 /* Farmer.m */; };
+		7AF584BA1B126C990074DC97 /* shootingStar.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7AF584B81B126C990074DC97 /* shootingStar.sks */; };
+		7AF584BB1B126C990074DC97 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF584B91B126C990074DC97 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +39,6 @@
 		7A95A4551B11116300A65728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A95A4571B11116300A65728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A95A4581B11116300A65728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A95A45A1B11116300A65728 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		7A95A45B1B11116300A65728 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		7A95A45D1B11116300A65728 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		7A95A45F1B11116300A65728 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		7A95A4601B11116300A65728 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
@@ -45,6 +48,15 @@
 		7A95A46E1B11116300A65728 /* Cow InvadersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cow InvadersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A95A4731B11116300A65728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A95A4741B11116300A65728 /* Cow_InvadersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cow_InvadersTests.m; sourceTree = "<group>"; };
+		7A95A47E1B1126EB00A65728 /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
+		7A95A47F1B1126EB00A65728 /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScene.m; sourceTree = "<group>"; };
+		7A95A4811B11522E00A65728 /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
+		7A95A4821B11522E00A65728 /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
+		7A95A4881B11652100A65728 /* Spritess.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Spritess.atlas; sourceTree = "<group>"; };
+		7A95A48A1B116A4600A65728 /* Farmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farmer.h; sourceTree = "<group>"; };
+		7A95A48B1B116A4600A65728 /* Farmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farmer.m; sourceTree = "<group>"; };
+		7AF584B81B126C990074DC97 /* shootingStar.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = shootingStar.sks; sourceTree = "<group>"; };
+		7AF584B91B126C990074DC97 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +98,18 @@
 		7A95A4521B11116300A65728 /* Cow Invaders */ = {
 			isa = PBXGroup;
 			children = (
-				7A95A4571B11116300A65728 /* AppDelegate.h */,
-				7A95A4581B11116300A65728 /* AppDelegate.m */,
-				7A95A45A1B11116300A65728 /* GameScene.h */,
-				7A95A45B1B11116300A65728 /* GameScene.m */,
+				7A95A4881B11652100A65728 /* Spritess.atlas */,
 				7A95A45D1B11116300A65728 /* GameScene.sks */,
 				7A95A45F1B11116300A65728 /* GameViewController.h */,
 				7A95A4601B11116300A65728 /* GameViewController.m */,
+				7A95A47E1B1126EB00A65728 /* TitleScene.h */,
+				7A95A47F1B1126EB00A65728 /* TitleScene.m */,
+				7A95A4811B11522E00A65728 /* GamePlayScene.h */,
+				7A95A4821B11522E00A65728 /* GamePlayScene.m */,
+				7AF584B81B126C990074DC97 /* shootingStar.sks */,
+				7AF584B91B126C990074DC97 /* spark.png */,
+				7A95A48A1B116A4600A65728 /* Farmer.h */,
+				7A95A48B1B116A4600A65728 /* Farmer.m */,
 				7A95A4621B11116300A65728 /* Main.storyboard */,
 				7A95A4651B11116300A65728 /* Images.xcassets */,
 				7A95A4671B11116300A65728 /* LaunchScreen.xib */,
@@ -104,6 +121,8 @@
 		7A95A4531B11116300A65728 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7A95A4571B11116300A65728 /* AppDelegate.h */,
+				7A95A4581B11116300A65728 /* AppDelegate.m */,
 				7A95A4541B11116300A65728 /* Info.plist */,
 				7A95A4551B11116300A65728 /* main.m */,
 			);
@@ -207,7 +226,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF584BA1B126C990074DC97 /* shootingStar.sks in Resources */,
+				7A95A4891B11652100A65728 /* Spritess.atlas in Resources */,
 				7A95A4691B11116300A65728 /* LaunchScreen.xib in Resources */,
+				7AF584BB1B126C990074DC97 /* spark.png in Resources */,
 				7A95A4661B11116300A65728 /* Images.xcassets in Resources */,
 				7A95A45E1B11116300A65728 /* GameScene.sks in Resources */,
 				7A95A4641B11116300A65728 /* Main.storyboard in Resources */,
@@ -228,9 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A95A4801B1126EB00A65728 /* TitleScene.m in Sources */,
 				7A95A4611B11116300A65728 /* GameViewController.m in Sources */,
+				7A95A4831B11522E00A65728 /* GamePlayScene.m in Sources */,
 				7A95A4591B11116300A65728 /* AppDelegate.m in Sources */,
-				7A95A45C1B11116300A65728 /* GameScene.m in Sources */,
+				7A95A48C1B116A4600A65728 /* Farmer.m in Sources */,
 				7A95A4561B11116300A65728 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +452,7 @@
 				7A95A47A1B11116300A65728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A95A47B1B11116300A65728 /* Build configuration list for PBXNativeTarget "Cow InvadersTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +461,7 @@
 				7A95A47D1B11116300A65728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
