@@ -9,5 +9,22 @@
 #import "Farmer.h"
 
 @implementation Farmer
+{
+    float farmerSpeed;
+}
+
++ (instancetype)farmerAtPosition:(CGPoint)position {
+    
+    Farmer *farmer = [Farmer spriteNodeWithImageNamed:@"Farmer_1"];
+    farmer.position = position;
+    farmer.anchorPoint = CGPointMake(0.5, 0.5);
+    farmer.name = @"Farmer";
+    farmer.zPosition = 2;
+    
+    return farmer;
+    
+}
+
+
 
 @end

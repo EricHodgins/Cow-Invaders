@@ -8,9 +8,9 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface GamePlayScene : SKScene
+@interface GamePlayScene : SKScene <SKPhysicsContactDelegate>
 
-@property (nonatomic) SKSpriteNode *farmer;
-@property (nonatomic) SKSpriteNode *alien;
+@property (nonatomic, weak) UITouch *farmerTouch;
+@property (nonatomic) NSTimeInterval lastUpdateTime;
 
 @end

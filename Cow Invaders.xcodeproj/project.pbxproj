@@ -17,10 +17,14 @@
 		7A95A4751B11116300A65728 /* Cow_InvadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A4741B11116300A65728 /* Cow_InvadersTests.m */; };
 		7A95A4801B1126EB00A65728 /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A47F1B1126EB00A65728 /* TitleScene.m */; };
 		7A95A4831B11522E00A65728 /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A4821B11522E00A65728 /* GamePlayScene.m */; };
-		7A95A4891B11652100A65728 /* Spritess.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7A95A4881B11652100A65728 /* Spritess.atlas */; };
 		7A95A48C1B116A4600A65728 /* Farmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A95A48B1B116A4600A65728 /* Farmer.m */; };
+		7AE19D181B18019700DC7AF8 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE19D171B18019700DC7AF8 /* Util.m */; };
+		7AE255B91B157AF5009E4F5A /* SpritesII.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7AE255B81B157AF5009E4F5A /* SpritesII.atlas */; };
+		7AE32D931B1362B5002C8FEB /* ProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE32D921B1362B5002C8FEB /* ProjectileNode.m */; };
+		7AE48E3A1B16C5F700067649 /* GroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE48E391B16C5F700067649 /* GroundNode.m */; };
 		7AF584BA1B126C990074DC97 /* shootingStar.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7AF584B81B126C990074DC97 /* shootingStar.sks */; };
 		7AF584BB1B126C990074DC97 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF584B91B126C990074DC97 /* spark.png */; };
+		7AF584BE1B12E4DB0074DC97 /* AlienNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF584BD1B12E4DB0074DC97 /* AlienNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +56,19 @@
 		7A95A47F1B1126EB00A65728 /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScene.m; sourceTree = "<group>"; };
 		7A95A4811B11522E00A65728 /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
 		7A95A4821B11522E00A65728 /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
-		7A95A4881B11652100A65728 /* Spritess.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Spritess.atlas; sourceTree = "<group>"; };
 		7A95A48A1B116A4600A65728 /* Farmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farmer.h; sourceTree = "<group>"; };
 		7A95A48B1B116A4600A65728 /* Farmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farmer.m; sourceTree = "<group>"; };
+		7AE19D161B18019700DC7AF8 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		7AE19D171B18019700DC7AF8 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		7AE255B81B157AF5009E4F5A /* SpritesII.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SpritesII.atlas; sourceTree = "<group>"; };
+		7AE32D911B1362B5002C8FEB /* ProjectileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectileNode.h; sourceTree = "<group>"; };
+		7AE32D921B1362B5002C8FEB /* ProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectileNode.m; sourceTree = "<group>"; };
+		7AE48E381B16C5F700067649 /* GroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundNode.h; sourceTree = "<group>"; };
+		7AE48E391B16C5F700067649 /* GroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundNode.m; sourceTree = "<group>"; };
 		7AF584B81B126C990074DC97 /* shootingStar.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = shootingStar.sks; sourceTree = "<group>"; };
 		7AF584B91B126C990074DC97 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		7AF584BC1B12E4DB0074DC97 /* AlienNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlienNode.h; sourceTree = "<group>"; };
+		7AF584BD1B12E4DB0074DC97 /* AlienNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlienNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,18 +110,26 @@
 		7A95A4521B11116300A65728 /* Cow Invaders */ = {
 			isa = PBXGroup;
 			children = (
-				7A95A4881B11652100A65728 /* Spritess.atlas */,
-				7A95A45D1B11116300A65728 /* GameScene.sks */,
+				7AE255B81B157AF5009E4F5A /* SpritesII.atlas */,
 				7A95A45F1B11116300A65728 /* GameViewController.h */,
 				7A95A4601B11116300A65728 /* GameViewController.m */,
+				7AE19D161B18019700DC7AF8 /* Util.h */,
+				7AE19D171B18019700DC7AF8 /* Util.m */,
 				7A95A47E1B1126EB00A65728 /* TitleScene.h */,
 				7A95A47F1B1126EB00A65728 /* TitleScene.m */,
 				7A95A4811B11522E00A65728 /* GamePlayScene.h */,
 				7A95A4821B11522E00A65728 /* GamePlayScene.m */,
-				7AF584B81B126C990074DC97 /* shootingStar.sks */,
-				7AF584B91B126C990074DC97 /* spark.png */,
+				7AE48E381B16C5F700067649 /* GroundNode.h */,
+				7AE48E391B16C5F700067649 /* GroundNode.m */,
 				7A95A48A1B116A4600A65728 /* Farmer.h */,
 				7A95A48B1B116A4600A65728 /* Farmer.m */,
+				7AF584BC1B12E4DB0074DC97 /* AlienNode.h */,
+				7AF584BD1B12E4DB0074DC97 /* AlienNode.m */,
+				7AE32D911B1362B5002C8FEB /* ProjectileNode.h */,
+				7AE32D921B1362B5002C8FEB /* ProjectileNode.m */,
+				7AF584B81B126C990074DC97 /* shootingStar.sks */,
+				7AF584B91B126C990074DC97 /* spark.png */,
+				7A95A45D1B11116300A65728 /* GameScene.sks */,
 				7A95A4621B11116300A65728 /* Main.storyboard */,
 				7A95A4651B11116300A65728 /* Images.xcassets */,
 				7A95A4671B11116300A65728 /* LaunchScreen.xib */,
@@ -227,9 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AF584BA1B126C990074DC97 /* shootingStar.sks in Resources */,
-				7A95A4891B11652100A65728 /* Spritess.atlas in Resources */,
 				7A95A4691B11116300A65728 /* LaunchScreen.xib in Resources */,
 				7AF584BB1B126C990074DC97 /* spark.png in Resources */,
+				7AE255B91B157AF5009E4F5A /* SpritesII.atlas in Resources */,
 				7A95A4661B11116300A65728 /* Images.xcassets in Resources */,
 				7A95A45E1B11116300A65728 /* GameScene.sks in Resources */,
 				7A95A4641B11116300A65728 /* Main.storyboard in Resources */,
@@ -252,10 +272,14 @@
 			files = (
 				7A95A4801B1126EB00A65728 /* TitleScene.m in Sources */,
 				7A95A4611B11116300A65728 /* GameViewController.m in Sources */,
+				7AE32D931B1362B5002C8FEB /* ProjectileNode.m in Sources */,
 				7A95A4831B11522E00A65728 /* GamePlayScene.m in Sources */,
 				7A95A4591B11116300A65728 /* AppDelegate.m in Sources */,
+				7AE19D181B18019700DC7AF8 /* Util.m in Sources */,
 				7A95A48C1B116A4600A65728 /* Farmer.m in Sources */,
+				7AF584BE1B12E4DB0074DC97 /* AlienNode.m in Sources */,
 				7A95A4561B11116300A65728 /* main.m in Sources */,
+				7AE48E3A1B16C5F700067649 /* GroundNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

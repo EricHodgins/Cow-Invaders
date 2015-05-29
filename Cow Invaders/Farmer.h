@@ -10,4 +10,6 @@
 
 @interface Farmer : SKSpriteNode
 
++ (instancetype)farmerAtPosition:(CGPoint)position;
+
 @end

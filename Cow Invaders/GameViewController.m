@@ -9,6 +9,7 @@
 #import "GameViewController.h"
 #import "TitleScene.h"
 
+
 @implementation SKScene (Unarchive)
 
 + (instancetype)unarchiveFromFile:(NSString *)file {
@@ -40,6 +41,7 @@
     skView.showsNodeCount = YES;
     /* Sprite Kit applies additional optimizations to improve rendering performance */
     skView.ignoresSiblingOrder = YES;
+    
     
     // Create and configure the scene.
     SKScene *scene = [TitleScene sceneWithSize: skView.bounds.size];
